@@ -1,0 +1,19 @@
+<div class="navbar">
+  <a href="syllabus.html" class="nav-link">syllabus</a>
+  <a href="intro.html" class="nav-link">intro block</a>
+  <a href="sb1.html" class="nav-link">standard block 1</a>
+  <a href="sb2.html" class="nav-link">standard block 2</a>
+  <a href="sb3.html" class="nav-link">standard block 3</a>
+  <a href="sb4.html" class="nav-link">standard block 4</a>
+  <a href="sb5.html" class="nav-link">standard block 5</a>
+</div>
+<script>
+document.querySelectorAll(".nav-link").forEach((link) => {
+    if (link.href === window.location.href) {
+        console.log(link.href)
+        console.log(window.location.href)
+        link.classList.add("active");
+        link.setAttribute("aria-current", "page");
+    }
+});
+</script>

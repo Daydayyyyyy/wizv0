@@ -1,0 +1,34 @@
+[
+    {
+        "question": "What is the most common type of phishing?",
+        "optionA": "Email Phishing",
+        "optionB": "Spear Phishing",
+        "optionC": "Whaling",
+        "optionD": "Fishing",
+        "correctOption": "optionA"
+    },
+    {
+        "question": "Which type of phishing attack is targeted at high-profile individuals?",
+        "optionA": "Email Phishing",
+        "optionB": "Spear Phishing",
+        "optionC": "Whaling",
+        "optionD": "Shark Attack",
+        "correctOption": "optionC"
+    },
+    {
+        "question": "What is smishing?",
+        "optionA": "Phishing through SMS",
+        "optionB": "Phishing through smoke signals",
+        "optionC": "Phishing through snail mail",
+        "optionD": "Phishing through smell",
+        "correctOption": "optionA"
+    },
+    {
+        "question": "What information do phishing attacks typically seek to obtain?",
+        "optionA": "Your favorite color",
+        "optionB": "Your pet\u2019s name",
+        "optionC": "Passwords and credit card numbers",
+        "optionD": "Your favorite type of cheese",
+        "correctOption": "optionC"
+    }
+]
